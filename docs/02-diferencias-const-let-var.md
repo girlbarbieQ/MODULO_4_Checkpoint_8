@@ -424,7 +424,7 @@ También es importante:
 - mantener scopes organizados,
 - y evitar redeclaraciones innecesarias.
 
-## Errores comunes
+### Errores comunes
 **Pensar que const vuelve todo inmutable.**
 Muchos principiantes creen que const impide modificar completamente arrays u objetos. Sin embargo, únicamente impide reasignar la variable, no modificar el contenido interno del objeto o array.
 
@@ -433,17 +433,6 @@ Otro error muy frecuente consiste en **utilizar var sin entender cómo funciona 
 - variables accesibles donde no deberían,
 - conflictos entre datos,
 - y errores difíciles de detectar.
-
-### ¿Cuál debería utilizar actualmente?
-En JavaScript moderno, la recomendación general suele ser:
-- utilizar const por defecto,
-- utilizar let cuando el valor necesite cambiar,
-- y evitar var salvo en proyectos antiguos o casos muy específicos.
-
-Este enfoque ayuda a escribir código:
-- más seguro,
-- más mantenible,
-- y mucho más predecible.
 
 ### Conclusión
 **var, let y const** son las tres formas principales de declarar variables en JavaScript, pero poseen comportamientos muy diferentes relacionados con:

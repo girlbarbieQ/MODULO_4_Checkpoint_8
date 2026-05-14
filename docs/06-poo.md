@@ -172,7 +172,7 @@ new
 ```
 el constructor se ejecuta **automáticamente**. Gracias a este sistema,** diferentes objetos** pueden almacenar información distinta aunque todos pertenezcan a la misma clase.
 
-## ¿Qué representa `this`?
+## ¿Qué representa this?
 Dentro de la Programación Orientada a Objetos, la palabra clave:
 ```js
 this
