@@ -1,0 +1,58 @@
+/**
+ * Any CSS included here will be global.
+ */
+
+:root {
+  --ifm-color-primary: #522525;
+  --ifm-color-primary-dark: #401d1d;
+  --ifm-color-primary-darker: #301212;
+  --ifm-color-primary-darkest: #170808;
+  --ifm-color-primary-light: #968b8b;
+  --ifm-color-primary-lighter: #bfb5b5;
+  --ifm-color-primary-lightest: #dbcdcd;
+
+  --ifm-code-font-size: 95%;
+}
+
+[data-theme='dark'] {
+
+  --ifm-color-primary: #c17d7d;
+  --ifm-color-primary-dark: #e2b8b8;
+  --ifm-color-primary-darker: #cfa2a2;
+  --ifm-color-primary-darkest: #b98585;
+
+  --ifm-color-primary-light: #f7dada;
+  --ifm-color-primary-lighter: #fae7e7;
+  --ifm-color-primary-lightest: #fff3f3;
+}
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.navbar a {
+  color: white !important;
+}
+.navbar svg {
+    color: white !important;
+}
+.navbar a:hover {
+  color:  #ff9aa2  !important;
+  text-decoration: none;
+}
+.footer {
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+.footer a:hover {
+  color:  #ff9aa2  !important;
+  text-decoration: none;
+}
+/* NAV FOOTER BG */
+
+html[data-theme='light'] .navbar,
+html[data-theme='light'] .footer {
+    background-color: #3b0000;
+}
+html[data-theme='dark'] .navbar,
+html[data-theme='dark'] .footer {
+    background-color: #120b0f;
+}
